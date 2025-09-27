@@ -2,11 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Clock, 
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
   MessageCircle,
   Send
 } from "lucide-react";
@@ -28,8 +28,7 @@ const ContactSection = () => {
               Contact Us
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Get in touch with our team for equipment evaluation, purchase inquiries, 
-              or technical consultations. We're here to help with all your analytical needs.
+              Get in touch with our team for any inquiries. We're here to help with all your analytical needs.
             </p>
           </div>
 
@@ -39,10 +38,10 @@ const ContactSection = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
                 <p className="text-muted-foreground mb-6">
-                  Please feel free to contact us regarding the sale of analytical equipment such as 
-                  chromatography analyzers, photometric analyzers, and electron microscopes. 
-                  We purchase everything from used to broken items and handle physicochemical equipment 
-                  as well as non-contact 3D measuring devices.
+                  Please feel free to contact us regarding the sale of analytical equipment such as
+                  chromatography analyzers, photometric analyzers, and electron microscopes.
+                  We purchase everything from used to broken items.
+
                 </p>
               </div>
 
@@ -102,7 +101,7 @@ const ContactSection = () => {
                         <h4 className="font-semibold mb-2">Business Hours</h4>
                         <div className="space-y-1 text-muted-foreground">
                           <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                          <p>Saturday: 9:00 AM - 2:00 PM</p>
+                          <p>Saturday: 9:00 AM - 6:00 PM</p>
                           <p>Sunday: Closed</p>
                         </div>
                       </div>
@@ -122,9 +121,9 @@ const ContactSection = () => {
                         Get immediate assistance for urgent equipment needs
                       </p>
                     </div>
-                    <a 
-                      href="https://wa.me/9100623882" 
-                      target="_blank" 
+                    <a
+                      href="https://wa.me/9100623882"
+                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Button className="bg-white text-success hover:bg-white/90">
@@ -152,10 +151,10 @@ const ContactSection = () => {
                         <label htmlFor="firstName" className="block text-sm font-medium mb-2">
                           First Name *
                         </label>
-                        <Input 
-                          id="firstName" 
-                          placeholder="Enter your first name" 
-                          required 
+                        <Input
+                          id="firstName"
+                          placeholder="Enter your first name"
+                          required
                           className="transition-smooth focus:shadow-medium"
                         />
                       </div>
@@ -163,10 +162,10 @@ const ContactSection = () => {
                         <label htmlFor="lastName" className="block text-sm font-medium mb-2">
                           Last Name *
                         </label>
-                        <Input 
-                          id="lastName" 
-                          placeholder="Enter your last name" 
-                          required 
+                        <Input
+                          id="lastName"
+                          placeholder="Enter your last name"
+                          required
                           className="transition-smooth focus:shadow-medium"
                         />
                       </div>
@@ -176,11 +175,11 @@ const ContactSection = () => {
                       <label htmlFor="email" className="block text-sm font-medium mb-2">
                         Email Address *
                       </label>
-                      <Input 
-                        id="email" 
-                        type="email" 
-                        placeholder="Enter your email" 
-                        required 
+                      <Input
+                        id="email"
+                        type="email"
+                        placeholder="Enter your email"
+                        required
                         className="transition-smooth focus:shadow-medium"
                       />
                     </div>
@@ -189,10 +188,10 @@ const ContactSection = () => {
                       <label htmlFor="phone" className="block text-sm font-medium mb-2">
                         Phone Number
                       </label>
-                      <Input 
-                        id="phone" 
-                        type="tel" 
-                        placeholder="Enter your phone number" 
+                      <Input
+                        id="phone"
+                        type="tel"
+                        placeholder="Enter your phone number"
                         className="transition-smooth focus:shadow-medium"
                       />
                     </div>
@@ -201,10 +200,10 @@ const ContactSection = () => {
                       <label htmlFor="subject" className="block text-sm font-medium mb-2">
                         Subject *
                       </label>
-                      <Input 
-                        id="subject" 
-                        placeholder="Equipment inquiry, quote request, etc." 
-                        required 
+                      <Input
+                        id="subject"
+                        placeholder="Equipment inquiry, quote request, etc."
+                        required
                         className="transition-smooth focus:shadow-medium"
                       />
                     </div>
@@ -213,11 +212,11 @@ const ContactSection = () => {
                       <label htmlFor="message" className="block text-sm font-medium mb-2">
                         Message *
                       </label>
-                      <Textarea 
-                        id="message" 
+                      <Textarea
+                        id="message"
                         placeholder="Please describe your equipment needs, condition, specifications, or any other relevant details..."
                         rows={6}
-                        required 
+                        required
                         className="transition-smooth focus:shadow-medium"
                       />
                     </div>

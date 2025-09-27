@@ -85,8 +85,8 @@ const EquipmentCarousel = () => {
               Our Equipment Portfolio
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Explore our extensive collection of analytical equipment from leading manufacturers. 
-              We handle everything from chromatography systems to electron microscopes.
+              Explore our extensive collection of analytical equipment from leading manufacturers.
+              We handle everything from chromatography systems to analytical instruments.
             </p>
           </div>
 

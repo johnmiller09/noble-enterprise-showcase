@@ -1,11 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  ShoppingCart, 
-  Wrench, 
-  Search, 
-  Truck, 
-  Shield, 
+import {
+  ShoppingCart,
+  Wrench,
+  Search,
+  Truck,
+  Shield,
   MessageCircle,
   CheckCircle,
   Globe
@@ -22,7 +22,7 @@ const ServicesSection = () => {
               Our Services
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive analytical equipment solutions from purchase to technical support. 
+              Comprehensive analytical equipment solutions from purchase to delivery.
               We handle all your laboratory instrumentation needs.
             </p>
           </div>
@@ -36,7 +36,7 @@ const ServicesSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  We purchase analytical equipment in all conditions - from pristine used instruments 
+                  We purchase analytical equipment in all conditions - from pristine used instruments
                   to items requiring refurbishment. Get competitive quotes instantly.
                 </p>
                 <ul className="space-y-2 text-sm">
@@ -63,13 +63,13 @@ const ServicesSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Looking for specific analytical equipment? We leverage our global network 
+                  Looking for specific analytical equipment? We leverage our National network
                   to source the exact instruments your laboratory needs.
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-success" />
-                    <span>Global sourcing network</span>
+                    <span>National sourcing network</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-success" />
@@ -83,14 +83,14 @@ const ServicesSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="shadow-elegant hover-lift card-gradient">
-              <CardHeader>
+            {/* <Card className="shadow-elegant hover-lift card-gradient">
+              {/* <CardHeader>
                 <Wrench className="w-12 h-12 text-secondary mb-4" />
                 <CardTitle className="text-xl">Technical Evaluation</CardTitle>
-              </CardHeader>
-              <CardContent>
+              </CardHeader> */}
+            {/* <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Professional assessment of equipment condition, functionality, and market value. 
+                  Professional assessment of equipment condition, functionality, and market value.
                   We provide detailed technical reports for informed decisions.
                 </p>
                 <ul className="space-y-2 text-sm">
@@ -108,7 +108,7 @@ const ServicesSection = () => {
                   </li>
                 </ul>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card className="shadow-elegant hover-lift card-gradient">
               <CardHeader>
@@ -117,7 +117,7 @@ const ServicesSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Safe and secure transportation of sensitive analytical equipment with 
+                  Safe and secure transportation of sensitive analytical equipment with
                   specialized handling and insurance coverage.
                 </p>
                 <ul className="space-y-2 text-sm">
@@ -144,7 +144,7 @@ const ServicesSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Rigorous quality control processes ensure every piece of equipment meets 
+                  Rigorous quality control processes ensure every piece of equipment meets
                   our high standards before reaching your laboratory.
                 </p>
                 <ul className="space-y-2 text-sm">
@@ -167,17 +167,17 @@ const ServicesSection = () => {
             <Card className="shadow-elegant hover-lift card-gradient">
               <CardHeader>
                 <Globe className="w-12 h-12 text-primary mb-4" />
-                <CardTitle className="text-xl">Global Network</CardTitle>
+                <CardTitle className="text-xl">National Network</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Access to international markets and manufacturers ensures competitive 
+                  Access to national markets and manufacturers ensures competitive
                   pricing and availability of the latest analytical technologies.
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-success" />
-                    <span>International partnerships</span>
+                    <span>National partnerships</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-success" />
@@ -198,11 +198,11 @@ const ServicesSection = () => {
               Ready to Work With Us?
             </h3>
             <p className="text-lg mb-6 text-white/90">
-              Contact us today for a free consultation and quote on your analytical equipment needs.
+              Contact us today for a free consultation and quote on your analytical equipment needs — whether you’re looking to purchase or sell
             </p>
-            <a 
-              href="https://wa.me/9100623882" 
-              target="_blank" 
+            <a
+              href="https://wa.me/9100623882"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Button size="lg" className="bg-white text-primary hover:bg-white/90 shadow-glow">
