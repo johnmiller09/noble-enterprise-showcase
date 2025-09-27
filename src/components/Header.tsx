@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-gradient">Noble Enterprises</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-gradient">Noble Enterprises</h1>
           </div>
           
           {/* Desktop Navigation */}

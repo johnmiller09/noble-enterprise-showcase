@@ -12,8 +12,11 @@ const AboutSection = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gradient">
               About Noble Enterprises
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We are a specialized trading company with years of expertise in analytical chemistry, biological, and environmental laboratory equipment. At Noble Enterprises, we serve as a vital bridge connecting labs that have outgrown their instruments with researchers who need them most. Our passion lies in rescuing valuable scientific equipment from obsolescence and placing it where it can continue advancing discovery. Through this meaningful circulation of laboratory assets, we create both economic value for our clients and environmental benefit for our planet - transforming what might be considered waste into scientific opportunity.
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              We rescue analytical laboratory equipment from obsolescence and connect it with researchers who need reliable scientific instruments. Our mission is to prevent valuable equipment from becoming waste by bridging the gap between labs that no longer need their instruments and those seeking cost-effective solutions. By redirecting quality analytical tools to active research environments, we support both scientific progress and environmental stewardship.
+            </p>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              We are a specialized trading company with years of expertise in analytical chemistry, biological, and environmental laboratory equipment. At Noble Enterprises, we serve as a vital bridge connecting labs that have outgrown their instruments with researchers who need them most. Through this meaningful circulation of laboratory assets, we create both economic value for our clients and environmental benefit for our planet.
             </p>
           </div>
 
@@ -31,15 +34,15 @@ const AboutSection = () => {
                       />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold mb-2">Our Leadership</h3>
+                      <h3 className="text-2xl font-bold mb-2">Mohammed Yusuf - Proprietor</h3>
                       <p className="text-muted-foreground mb-4">
-                        Driven by fresh energy and guided by solid expertise in analytical instrumentation, our team brings 2+ years of hands-on experience in, smart procurement.
+                        Driven by fresh energy and guided by solid expertise in analytical instrumentation, our team brings 2+ years of hands-on experience in smart procurement. Established in October 2022, Noble Enterprises specializes in the purchase and sale of used analytical equipment.
                       </p>
-                      <p className="text-muted-foreground">
-                        We understand the critical role of analytical equipment in research, quality control,
-                        and manufacturing processes. Our commitment is to provide reliable solutions that
-                        meet your laboratory's specific requirements.
-                      </p>
+                      <div className="space-y-2 text-sm text-muted-foreground">
+                        <p><span className="font-semibold">GST Number:</span> 36BJNPY1843E1ZU</p>
+                        <p><span className="font-semibold">Business:</span> Purchase & sale of used analytical equipment</p>
+                        <p><span className="font-semibold">Established:</span> October 3, 2022</p>
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -48,15 +51,24 @@ const AboutSection = () => {
 
             {/* Company Info */}
             <div className="order-1 lg:order-2">
-              <h3 className="text-3xl font-bold mb-6">Our Business Philosophy</h3>
+              <h3 className="text-3xl font-bold mb-6">Company Profile</h3>
+              <div className="bg-muted/50 rounded-lg p-6 mb-6">
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div><span className="font-semibold">Company Name:</span> Noble Enterprises</div>
+                  <div><span className="font-semibold">Establishment:</span> October 3, 2022</div>
+                  <div><span className="font-semibold">Proprietor:</span> Mohammed Yusuf</div>
+                  <div><span className="font-semibold">GST Number:</span> 36BJNPY1843E1ZU</div>
+                  <div className="md:col-span-2"><span className="font-semibold">Business Content:</span> Purchase & sale of used analytical equipment</div>
+                  <div className="md:col-span-2"><span className="font-semibold">Address:</span> Part 312 south side portion S.V.C.I.E Jeedimetla, Hyderabad Telangana 500055</div>
+                  <div><span className="font-semibold">Phone:</span> +91 9100623882, +91 7303567235</div>
+                  <div><span className="font-semibold">Website:</span> www.thenobleenterprises.com</div>
+                  <div className="md:col-span-2"><span className="font-semibold">Email:</span> yusuf@thenobleenterprises.com</div>
+                </div>
+              </div>
+              
+              <h4 className="text-2xl font-bold mb-4">Our Business Philosophy</h4>
               <p className="text-lg text-muted-foreground mb-6">
-                We are a trading company based in Telangana, India
-                that specialized in the sale of used pharmaceutical, analytical chemistry, biological and environmental laboratory equipment.
-
-                I personally oversee our national marketing department.
-                Please be aware that all of our instruments are un-refurbished. Given our company's business model, we do not employ engineers, which means we cannot provide refurbished instruments with test report However, I can assure you of the quality of our instruments. They are in excellent condition, accurately described, and were functioning properly before they were retired without any known issues.
-
-                We hope that your company has your own engineers (or engineers of third-party) who can calibrate instruments for you.
+                We are a trading company based in Telangana, India that specializes in the sale of used pharmaceutical, analytical chemistry, biological and environmental laboratory equipment. I personally oversee our national marketing department. Please be aware that all of our instruments are un-refurbished. Given our company's business model, we do not employ engineers, which means we cannot provide refurbished instruments with test reports. However, I can assure you of the quality of our instruments. They are in excellent condition, accurately described, and were functioning properly before they were retired without any known issues. We hope that your company has your own engineers (or engineers of third-party) who can calibrate instruments for you.
               </p>
 
               <div className="space-y-4">

@@ -62,7 +62,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               onClick={scrollToEquipment}
-              className="group border-white text-white hover:bg-white hover:text-primary transition-smooth"
+              className="group border-white text-white hover:bg-white hover:text-primary transition-smooth bg-white/10 backdrop-blur-sm"
             >
               View Equipment
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-smooth" />
