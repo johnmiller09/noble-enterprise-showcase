@@ -71,7 +71,16 @@ const equipmentData = [
     title: "Mass Spectrometry System",
     description: "Advanced mass spectrometry for molecular analysis and identification",
     category: "Mass Spectrometry"
-  }
+  },
+  // ADD YOUR NEW EQUIPMENT BELOW THIS LINE
+  // Follow this format for each new item:
+  // {
+  //   id: 9,
+  //   image: equipment9,  // Import the image at the top of this file first
+  //   title: "Your Equipment Name",
+  //   description: "Brief description of the equipment",
+  //   category: "Equipment Category"
+  // },
 ];
 
 const EquipmentCarousel = () => {
