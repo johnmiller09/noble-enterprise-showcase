@@ -14,6 +14,15 @@ import equipment5 from "@/assets/equipment5.jpeg";
 import equipment6 from "@/assets/equipment6.jpeg";
 import equipment7 from "@/assets/equipment7.jpeg";
 import equipment8 from "@/assets/equipment8.jpeg";
+import equipment9 from "@/assets/equipment9.jpeg";
+import equipment10 from "@/assets/equipment10.jpeg";
+import equipment11 from "@/assets/equipment11.jpeg";
+import equipment12 from "@/assets/equipment12.jpeg";
+import equipment13 from "@/assets/equipment13.jpeg";
+import equipment14 from "@/assets/equipment14.jpeg";
+import equipment15 from "@/assets/equipment15.jpeg";
+import equipment16 from "@/assets/equipment16.jpeg";
+import equipment17 from "@/assets/equipment17.jpeg";
 
 const equipmentData = [
   {
@@ -72,11 +81,74 @@ const equipmentData = [
     description: "Advanced mass spectrometry for molecular analysis and identification",
     category: "Mass Spectrometry"
   },
+  {
+    id: 9,
+    image: equipment9,
+    title: "Waters 4-Way Valve Assembly",
+    description: "High-precision valve for flow path control in HPLC systems",
+    category: "Valve Components"
+  },
+  {
+    id: 10,
+    image: equipment10,
+    title: "Agilent MCG Valve Assembly",
+    description: "Premium valve assembly for chromatography applications",
+    category: "Valve Components"
+  },
+  {
+    id: 11,
+    image: equipment11,
+    title: "Thermal Management System",
+    description: "Advanced cooling system for temperature-sensitive analytical equipment",
+    category: "Cooling Systems"
+  },
+  {
+    id: 12,
+    image: equipment12,
+    title: "Main Control Board",
+    description: "Central processing board for analytical instrument control",
+    category: "Electronic Components"
+  },
+  {
+    id: 13,
+    image: equipment13,
+    title: "Power Distribution Board",
+    description: "High-capacity power circuit board with advanced regulation",
+    category: "Electronic Components"
+  },
+  {
+    id: 14,
+    image: equipment14,
+    title: "Signal Processing Board",
+    description: "Precision control circuit for analytical data processing",
+    category: "Electronic Components"
+  },
+  {
+    id: 15,
+    image: equipment15,
+    title: "Waters Acquity UPLC Modules",
+    description: "Dual FLR detector modules for enhanced analytical performance",
+    category: "UPLC Systems"
+  },
+  {
+    id: 16,
+    image: equipment16,
+    title: "Precision Injection Module",
+    description: "High-precision mechanical injection system with stepper motor control",
+    category: "Injection Systems"
+  },
+  {
+    id: 17,
+    image: equipment17,
+    title: "Rheodyne Valve Kit",
+    description: "Professional-grade valve assemblies with complete documentation",
+    category: "Valve Components"
+  },
   // ADD YOUR NEW EQUIPMENT BELOW THIS LINE
   // Follow this format for each new item:
   // {
-  //   id: 9,
-  //   image: equipment9,  // Import the image at the top of this file first
+  //   id: 18,
+  //   image: equipment18,  // Import the image at the top of this file first
   //   title: "Your Equipment Name",
   //   description: "Brief description of the equipment",
   //   category: "Equipment Category"
