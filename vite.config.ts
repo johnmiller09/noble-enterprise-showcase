@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
 
   // 👇 This is the critical line for correct asset paths
-  base: "/",
+  base: "./", // Change this from "/" to "./"
 
   resolve: {
     alias: {
