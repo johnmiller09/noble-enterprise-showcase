@@ -201,7 +201,7 @@ const ServicesSection = () => {
               Contact us today for a free consultation and quote on your analytical equipment needs — whether you’re looking to purchase or sell
             </p>
             <a
-              href="https://wa.me/9100623882"
+              href="https://wa.link/peirzq"
               target="_blank"
               rel="noopener noreferrer"
             >

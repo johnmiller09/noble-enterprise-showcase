@@ -40,14 +40,14 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 text-white/90 animate-fade-in max-w-3xl mx-auto">
-            We purchase analytical equipment including chromatography analyzers, photometric analyzers,
+            We sale and  purchase analytical equipment including chromatography analyzers, photometric analyzers,
             and electron microscopes. From used to broken items - we handle everything from
             manufacturing sites to research laboratories.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
             <a
-              href="https://wa.me/9100623882"
+              href="https://wa.link/peirzq"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,7 +71,7 @@ const Hero = () => {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent-light">2+</div>
+              <div className="text-3xl font-bold text-accent-light">5+</div>
               <div className="text-white/80">Years Experience</div>
             </div>
             <div className="text-center">

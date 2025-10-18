@@ -38,7 +38,7 @@ const ContactSection = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
                 <p className="text-muted-foreground mb-6">
-                  Please feel free to contact us regarding the sale of analytical equipment such as
+                  Please feel free to contact us regarding the sale and purchase of analytical equipment such as
                   chromatography analyzers, photometric analyzers, and electron microscopes.
                   We purchase everything from used to broken items.
 
@@ -53,7 +53,7 @@ const ContactSection = () => {
                       <div>
                         <h4 className="font-semibold mb-2">Office Address</h4>
                         <p className="text-muted-foreground">
-                          Part 312 South Side Portion<br />
+                          Plot No. 115 Part 312 South Side Portion<br />
                           S.V.C.I.E Jeedimetla<br />
                           Hyderabad, Telangana 500055<br />
                           India
@@ -70,7 +70,7 @@ const ContactSection = () => {
                       <div>
                         <h4 className="font-semibold mb-2">Phone Numbers</h4>
                         <div className="space-y-1 text-muted-foreground">
-                          <p>Primary: +91 9100623882</p>
+                          <p>Primary: +91 9100085944 </p>
                           <p>Secondary: +91 7303567235</p>
                         </div>
                       </div>
@@ -122,7 +122,7 @@ const ContactSection = () => {
                       </p>
                     </div>
                     <a
-                      href="https://wa.me/9100623882"
+                      href="https://wa.link/peirzq"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

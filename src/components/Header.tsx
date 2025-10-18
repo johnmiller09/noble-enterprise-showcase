@@ -20,34 +20,34 @@ const Header = () => {
           <div className="flex-shrink-0">
             <h1 className="text-3xl md:text-4xl font-bold text-gradient">Noble Enterprises</h1>
           </div>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <button 
+            <button
               onClick={() => scrollToSection('home')}
               className="text-foreground hover:text-primary transition-smooth"
             >
               Home
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('about')}
               className="text-foreground hover:text-primary transition-smooth"
             >
               About
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('equipment')}
               className="text-foreground hover:text-primary transition-smooth"
             >
               Equipment
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('services')}
               className="text-foreground hover:text-primary transition-smooth"
             >
               Services
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('contact')}
               className="text-foreground hover:text-primary transition-smooth"
             >
@@ -59,11 +59,11 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span>+91 9100623882</span>
+              <span>+91 9100085944</span>
             </div>
-            <a 
-              href="https://wa.me/9100623882" 
-              target="_blank" 
+            <a
+              href="https://wa.link/peirzq"
+              target="_blank"
               rel="noopener noreferrer"
               className="transition-smooth"
             >
@@ -86,40 +86,40 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-border">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <button 
+              <button
                 onClick={() => scrollToSection('home')}
                 className="block px-3 py-2 text-base font-medium text-foreground hover:text-primary transition-smooth"
               >
                 Home
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('about')}
                 className="block px-3 py-2 text-base font-medium text-foreground hover:text-primary transition-smooth"
               >
                 About
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('equipment')}
                 className="block px-3 py-2 text-base font-medium text-foreground hover:text-primary transition-smooth"
               >
                 Equipment
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('services')}
                 className="block px-3 py-2 text-base font-medium text-foreground hover:text-primary transition-smooth"
               >
                 Services
               </button>
-              <button 
+              <button
                 onClick={() => scrollToSection('contact')}
                 className="block px-3 py-2 text-base font-medium text-foreground hover:text-primary transition-smooth"
               >
                 Contact
               </button>
               <div className="pt-4 border-t border-border">
-                <a 
-                  href="https://wa.me/9100623882" 
-                  target="_blank" 
+                <a
+                  href="https://wa.link/peirzq"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="block px-3 py-2"
                 >
