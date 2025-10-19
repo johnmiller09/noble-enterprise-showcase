@@ -1,8 +1,9 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
-import EquipmentCarousel from "@/components/EquipmentCarousel";
-import SpecializedEquipmentCarousel from "@/components/SpecializedEquipmentCarousel";
+import ChromatographyCarousel from "@/components/ChromatographyCarousel";
+import SpectroscopyCarousel from "@/components/SpectroscopyCarousel";
+import ComponentsCarousel from "@/components/ComponentsCarousel";
 import ServicesSection from "@/components/ServicesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -14,8 +15,9 @@ const Index = () => {
       <main>
         <Hero />
         <AboutSection />
-        <EquipmentCarousel />
-        <SpecializedEquipmentCarousel />
+        <ChromatographyCarousel />
+        <SpectroscopyCarousel />
+        <ComponentsCarousel />
         <ServicesSection />
         <ContactSection />
       </main>

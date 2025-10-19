@@ -12,10 +12,22 @@ import {
 } from "lucide-react";
 
 const ContactSection = () => {
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted');
+    
+    const formData = new FormData(e.currentTarget);
+    const firstName = formData.get('firstName') as string;
+    const lastName = formData.get('lastName') as string;
+    const email = formData.get('email') as string;
+    const phone = formData.get('phone') as string;
+    const subject = formData.get('subject') as string;
+    const message = formData.get('message') as string;
+
+    // Create WhatsApp message
+    const whatsappMessage = `*New Contact Form Submission*%0A%0A*Name:* ${firstName} ${lastName}%0A*Email:* ${email}%0A*Phone:* ${phone || 'Not provided'}%0A*Subject:* ${subject}%0A%0A*Message:*%0A${message}`;
+    
+    // Open WhatsApp with pre-filled message
+    window.open(`https://wa.me/919100085944?text=${whatsappMessage}`, '_blank');
   };
 
   return (
@@ -153,6 +165,7 @@ const ContactSection = () => {
                         </label>
                         <Input
                           id="firstName"
+                          name="firstName"
                           placeholder="Enter your first name"
                           required
                           className="transition-smooth focus:shadow-medium"
@@ -164,6 +177,7 @@ const ContactSection = () => {
                         </label>
                         <Input
                           id="lastName"
+                          name="lastName"
                           placeholder="Enter your last name"
                           required
                           className="transition-smooth focus:shadow-medium"
@@ -177,6 +191,7 @@ const ContactSection = () => {
                       </label>
                       <Input
                         id="email"
+                        name="email"
                         type="email"
                         placeholder="Enter your email"
                         required
@@ -190,6 +205,7 @@ const ContactSection = () => {
                       </label>
                       <Input
                         id="phone"
+                        name="phone"
                         type="tel"
                         placeholder="Enter your phone number"
                         className="transition-smooth focus:shadow-medium"
@@ -202,6 +218,7 @@ const ContactSection = () => {
                       </label>
                       <Input
                         id="subject"
+                        name="subject"
                         placeholder="Equipment inquiry, quote request, etc."
                         required
                         className="transition-smooth focus:shadow-medium"
@@ -214,6 +231,7 @@ const ContactSection = () => {
                       </label>
                       <Textarea
                         id="message"
+                        name="message"
                         placeholder="Please describe your equipment needs, condition, specifications, or any other relevant details..."
                         rows={6}
                         required
