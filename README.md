@@ -9,7 +9,7 @@
 There are several ways of editing your application.
 
 **Use Lovable**
-
+jai telangana bolo beta
 Simply visit the [Lovable Project](https://lovable.dev/projects/def4d328-55ef-44fa-9b1b-cad4816752df) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
